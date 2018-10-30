@@ -1,0 +1,66 @@
+/* header */
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#header .wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#header .wrap .gnb {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* header - logo */
+.gnb .logo {
+  width: 15%;
+}
+
+.gnb .logo a {
+  display: block;
+}
+
+.gnb .logo a img {
+  max-width: 105px;
+  vertical-align: 0;
+}
+
+/* header - navigaion */
+.gnb .navigation {
+  width: 45%;
+  margin: 0 12.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gnb .navigation .links {
+  width: 33.3333333%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.gnb .navigation .links a {
+  vertical-align: -12px;
+}
+
+/* header - shop link */
+.gnb .shop_link {
+  width: 15%;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.gnb .shop_link a {
+  vertical-align: -12px;
+}

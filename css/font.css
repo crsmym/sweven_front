@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "SourceHanSansK", "Montserrat", sans-serif;
+  src:url(../font/SourceHanSansKR-Normal.otf);
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}

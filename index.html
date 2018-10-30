@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/script.js"></script>
   <title>sweven</title>
 </head>
@@ -21,7 +21,7 @@
       <div class="gnb">
         <h1 class="logo">
           <a href="#">
-            <img src="images/main/logo.png" alt="스웨븐">
+            <img src="images/main/sweven_tit.png" alt="스웨븐">
           </a>
         </h1>
         <ul class="navigation">
@@ -37,7 +37,7 @@
   </div>
 
   <!-- main contents -->
-  <div id="container" class="container main">
+  <div id="main" class="container main">
     <div class="visual">
       <div class="text_box">
         <h2 class="visual_title">
@@ -49,14 +49,113 @@
         </p>
       </div>
       <a id="scrollDown" href="#">
-        <img src="images/main/scrolling.png" alt="아래 화살표">
+        <img src="images/main/scroll_down.png" alt="아래 화살표">
       </a>
     </div>
-    <div class="wrap">
-      <div class="inner">
-        <div class="section"></div>
-        <div class="section"></div>
-        <div class="section"></div>
+    <div class="contents">
+      <div class="wrap">
+        <div class="inner">
+          
+          <!-- section1 product -->
+          <div class="section product">
+            <div class="wrap">
+              <h3 class="section_tit">
+                <img src="images/main/sweven_logo.png" alt="스웨븐 로고">
+                <p>PRODUCT</p>
+              </h3>
+              <div class="product_intro flex_cont">
+                <div class="cont left">
+                  <!-- mattress animation -->                  
+                  <div class="index-animation">
+                    <div id="AnimationContainer" class="animation-container">
+                      <div class="animation-wrap">
+                        <picture id="layer-bottom-fabric"> <img class="lazyautosizes lazyloaded" alt="" src="" data-src="" id="layer-bottom-fabric-img"
+                            data-sizes="auto" sizes="852px">
+                        </picture>
+                        <picture id="layer-panel1"> <img class="lazyautosizes lazyloaded" alt="" src="images/main/grey_sweven.png" data-src="images/grey_sweven.png"
+                            id="layer-panel1-img" data-sizes="auto" sizes="852px"> </picture>
+                        <picture id="layer-blue"> <img class="lazyautosizes lazyloaded" alt="" src="images/main/memory_foam.png" data-src="images/bottom_sweven.png"
+                            id="layer-blue-img" data-sizes="auto" sizes="852px"> </picture>
+                        <picture id="layer-springs"> <img class="lazyautosizes lazyloaded" alt="" src="images/main/supporter.png" data-src="images/supporter.png"
+                            id="layer-springs-img" data-sizes="auto" sizes="852px"> </picture>
+                        <picture id="layer-grey"> <img class="lazyautosizes lazyloaded" alt="" src="images/main/bottom_sweven.png" data-src="images/memory_foam.png"
+                            id="layer-grey-img" data-sizes="auto" sizes="852px"> </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="IntersectionTrigger"></div>
+                </div>
+                <div class="cont right">
+                  <ul class="product_infomation">
+                    <li class="list flex_cont">
+                      <img class="thumbnail" src="images/main/product_thumb1.png" alt="">
+                      <div class="detail">
+                        <h4>렌징 텐셀 삼중직 니트 원단</h4>  
+                        <p>부드럽고 고급스러운 감촉, <br> 포근함을 더한 텐셀 3중직 양면 커버</p>
+                      </div>
+                    </li>
+                    <li class="list flex_cont">
+                      <img class="thumbnail" src="images/main/product_thumb2.png" alt="">
+                      <div class="detail">
+                        <h4>고밀도 오픈셀 메모리폼</h4>  
+                        <p>내구성과 복원력이 우수한 60kg/m3의 <br> 고밀도 메모리폼 사용</p>
+                      </div>
+                    </li>
+                    <li class="list flex_cont">
+                      <img class="thumbnail" src="images/main/product_thumb3.png" alt="">
+                      <div class="detail">
+                        <h4>이중 레이어 구조</h4>  
+                        <p>메모리폼의 편안함과 <br> 탄탄하게 받쳐주는 지지력</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="btn_wrap">
+                    <a class="more_btn" href="#">
+                      More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- section2 gallery -->
+          <div class="section gallery">
+            <div class="wrap">
+              <h3 class="section_tit">
+                <img src="images/main/sweven_logo.png" alt="스웨븐 로고">
+                <p>GALLERY</p>
+              </h3>
+              <!-- slick slide use -->
+              <div class="slider_container">
+                <ul class="main_slide">
+                  <li class="slides">
+                    <img src="images/main/slide_img1.png" alt="">
+                  </li>
+                  <li class="slides">
+                    <img src="images/main/slide_img2.png" alt="">
+                  </li>
+                  <li class="slides">
+                    <img src="images/main/slide_img3.png" alt="">
+                  </li>
+                  <li class="slides">
+                    <img src="images/main/slide_img3.png" alt="">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- section3 system -->
+          <div class="section our_system">
+            <div class="wrap">
+              <h3 class="section_tit">
+                <img src="images/main/sweven_logo.png" alt="스웨븐 로고">
+                <p>OUR SYSTEM</p>
+              </h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

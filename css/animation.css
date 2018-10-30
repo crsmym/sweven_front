@@ -1,0 +1,213 @@
+
+/* main scroll button keyframes */
+/* @keyframes scroll-down {
+  0% { bottom: 20px; }
+  100% { bottom: 0; }
+  0% { bottom: 20px; }
+} */
+
+.index-animation {
+  position: relative;
+}
+
+.animation-wrap {
+  padding-bottom: 64%;
+  position: relative;
+  top: -73px;
+  left: -110px;
+}
+
+.animation-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f5f6f6;
+  display: block;
+  z-index: 0;
+}
+
+#layer-top {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#layer-top-img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  image-rendering: pixelated;
+}
+
+#layer-grey {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+#layer-grey-img {
+  top: 12%;
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+#layer-springs {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+#layer-springs-img {
+  top: 29%;
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+#layer-blue {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+#layer-blue-img {
+  top: 35.7%;
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+#layer-panel1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+#layer-panel1-img {
+  /*top:52.9%;*/
+  top: 39%;
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+#layer-bottom-fabric {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+#layer-bottom-fabric-img {
+  top: 75.6%;
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+#layer-bottom-solid {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+#layer-bottom-solid-img {
+  top: 82.4%;
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+#layer-bottom-transparent {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+#layer-bottom-transparent-img {
+  top: 81.4%;
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+@media (max-width :960px) {
+  .animation-container {
+    max-width: 452px;
+  }
+}
+
+@media (max-width :550px) {
+  .animation-container {
+    max-width: 300px;
+  }
+}
+
+#IntersectionTrigger {
+  position: absolute;
+  width: 4px;
+  pointer-events: none;
+  top: 87%;
+  height: 648px;
+  height: 40vh;
+  height: 426px;
+}
+

@@ -1,0 +1,148 @@
+/* main page */
+
+/* main common css */
+#main .contents .section {
+  padding: 58px 0;
+}
+#main .contents .section .wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#main .contents .section .section_tit {
+  text-align: center;
+}
+#main .contents .section .section_tit img {
+  max-width: 38px;
+}
+#main .contents .section .section_tit p {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+/* main page - visual */
+#main .visual {
+  position: relative;
+  height: 100vh;
+  background: url(../images/main/main_visual.png) center no-repeat;
+  background-size: cover;
+}
+
+#main .visual .text_box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+#main .visual .text_box img {
+  max-width: 55px;
+  margin: 20px 0 10px;
+}
+
+#scrollDown {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  animation: scroll-down 0.8s infinite;
+  -webkit-animation: scroll-down 0.8s infinite;
+}
+
+#scrollDown img {
+  max-width: 42px;
+}
+
+/* main page - product */
+#main .contents .section.product {
+  background-color: #f4f4f4;
+}
+#main .product_intro .cont {
+  width: 50%;
+}
+#main .product_intro .cont .animation_wrap .layer img {
+  width: 100%;
+}
+#main .product_intro .cont.right .product_infomation {
+  max-width: 460px;
+  margin: 0 auto;
+  border-top: 1px solid #d2d2d2;
+}
+#main .product_intro .cont.right .product_infomation .list {
+  padding: 20px 30px;
+  border-bottom: 1px solid #d2d2d2;
+}
+#main .product_intro .cont.right .product_infomation .list .thumbnail {
+  max-width: 86px;
+  max-height: 86px;
+}
+
+#main .product_intro .cont.right .product_infomation .list .detail {
+  padding: 10px 0 0 20px;
+}
+#main .product_intro .cont.right .product_infomation .list .detail h4 {
+  font-size: 19px;
+  color: #2156b0;
+}
+#main .product_intro .cont.right .product_infomation .list .detail p {
+  font-size: 16px;
+  padding: 5px 0 0 0;
+  color: #4b4b4b;
+}
+#main .product_intro .cont.right .btn_wrap {
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+#main .product_intro .cont.right .btn_wrap .more_btn {
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  box-shadow: 0px 2px 4px 0px rgba(62, 62, 62, 0.19);
+  background-color: #ffffff;
+  color: #003da5;
+  border-radius: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+/* main page - gallery */
+/* #main .contents .section.gallery .slider_container {
+  padding: 75px 0 15px;
+  margin: 50px 0;
+  background: url(../images/main/gallery_bg.png) right center no-repeat;
+  background-size: 60% 100%;
+} */
+
+/* #main .contents .section.gallery .slider_container .main_carousel {
+  transform: translate(28%,0);
+  -webkit-transform: translate(28%,0);
+  -moz-transform: translate(28%,0);
+  -ms-transform: translate(28%,0);
+  -o-transform: translate(28%,0);
+} */
+/* .section.gallery .slider_container .main_carousel .flickity-button {
+  border: none;
+  padding: 30px;
+}
+.section.gallery .slider_container .main_carousel .flickity-button.previous {
+  background: url(../images/main/slide_l.png) center no-repeat;
+}
+.section.gallery .slider_container .main_carousel .flickity-button.next {
+  background: url(../images/main/slide_r.png) center no-repeat;
+} */
+
+
