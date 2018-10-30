@@ -41,5 +41,84 @@ a:hover {
 }
 
 #banner {
-  
+  padding: 90px 0 0;
+  background: url(../images/main/banner_bg.png) center no-repeat;
+  background-size: cover;
+}
+
+#banner .cont {
+  width: 50%;
+}
+
+#banner .cont.left {
+
+}
+#banner .cont.right h4 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+#banner .cont.right p {
+  font-sie: 20px;
+  margin-bottom: 30px;
+}
+#banner .cont.right .shop_link {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  opacity: 0.5;
+  border-radius: 20px;
+  border: solid 1px #bfbfbf;
+  color: #003da5;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+/* footer css */
+#footer {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+#footer .wrap {
+  border-bottom: 1px solid #bfbfbf;
+}
+#footer .wrap .footer_logo {
+  padding-bottom: 20px;
+  text-align: center;
+}
+#footer .wrap .footer_logo img {
+  display: inline-block;
+  max-width: 72px;
+  text-align: center;
+}
+#footer .wrap .footer_info {
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.16;
+  letter-spacing: normal;
+  color: #333333;
+
+}
+#footer .wrap .address {
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.16;
+  letter-spacing: normal;
+  color: #333333;
+
+}
+#footer .copywrite {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.16;
+  letter-spacing: normal;
+  color: #5f5f5f;
 }
