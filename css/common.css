@@ -1,0 +1,33 @@
+/* common css */
+* {
+  box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#container {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#container .wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
