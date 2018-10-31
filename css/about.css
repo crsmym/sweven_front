@@ -33,7 +33,7 @@
 #about.about1 .section .section_title {
   padding: 61px 0;
   font-size: 35.5px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.39;
@@ -48,4 +48,103 @@
 
 #about.about1 .section .hero img {
   width: 100%;
+}
+#about.about1 .section .sub_section .flex_cont {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#about.about1 .section .sub_section .flex_cont .cont {
+  width: 50%;
+}
+#about.about1 .section .flex_cont .cont.txt {
+  font-family: "SourceHanSansK";
+  font-size: 19px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #616161;
+}
+#about.about1 .section .flex_cont .cont.img img {
+  max-width: max-content;
+}
+
+/* sec1 */
+#about.about1 .section.first {
+  padding: 40px 0;
+}
+.section.first .sub_section.first .flex_cont .cont.txt {
+  padding: 15% 0 0 10%;
+}
+.section.first .sub_section.first .flex_cont .cont.img {
+  text-align: center;
+}
+.section.first .sub_section.first .flex_cont .cont.img img {
+  position: relative;
+  top: 115px;
+  left: -20px;
+}
+.section.first .sub_section.first .bg_wrap {
+  background-color: #f0f4fa;
+  padding-bottom: 30%;
+}
+
+/* sec2 */
+#about.about1 .section.second {
+  padding: 0 0 120px;
+}
+.section.second .section_title {
+  position: relative;
+}
+.section.second .section_title::before {
+  position: absolute;
+  top: -50%;
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 130px;
+  background: #282828;
+}
+.section.second .section_title strong {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #333333;
+}
+.section.second .sub_section.first .flex_cont .cont.txt, 
+.section.second .sub_section.third .flex_cont .cont.txt {
+  padding: 9% 0 0 5%;
+}
+.section.second .sub_section.second .flex_cont .cont.txt {
+  padding: 5% 0 0 6%;
+}
+.section.second .sub_section.fourth .flex_cont .cont.txt {
+  padding: 15% 0 0 6%;
+}
+.section.second .sub_section.fourth .flex_cont .cont.txt  strong {
+  font-size: 30px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: left;
+  color: #646464;
+}
+.section.second .sub_section.fourth .flex_cont .cont.txt  img {
+  max-width: 45px;
+  margin: 15px 0;
+}
+.section.second .sub_section.first .flex_cont .cont.img img {
+  position: relative;
+  left: 50px;
+}
+.section.second .sub_section.second .flex_cont .cont.img img {
+  position: relative;
+  top: -85px;
 }
