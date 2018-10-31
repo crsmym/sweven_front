@@ -13,10 +13,14 @@
 .animation-wrap {
   padding-bottom: 64%;
   position: relative;
-  top: -73px;
-  left: -110px;
+
 }
 
+.animation-container {
+    max-width: 852px;
+    margin: 0 auto;
+    width: 100%;
+}
 .animation-wrap:after {
   content: '';
   position: absolute;
@@ -59,7 +63,7 @@
 }
 
 #layer-grey-img {
-  top: 12%;
+  top: 13.2%;
   left: 0;
   display: block;
   position: absolute;
@@ -79,7 +83,7 @@
 }
 
 #layer-springs-img {
-  top: 29%;
+  top: 25.2%;
   left: 0;
   display: block;
   position: absolute;
@@ -99,7 +103,7 @@
 }
 
 #layer-blue-img {
-  top: 35.7%;
+  top: 35.3%;
   left: 0;
   display: block;
   position: absolute;
@@ -205,9 +209,9 @@
   position: absolute;
   width: 4px;
   pointer-events: none;
-  top: 87%;
+  top: 155%;
   height: 648px;
   height: 40vh;
-  height: 426px;
+  height: 900px;
 }
 

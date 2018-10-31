@@ -79,18 +79,10 @@ try {
       easing: 'ease',
     }
 
-    var anim = document.getElementById("layer-bottom-solid").animate(
-      [
-        { transform: 'translate3d(0,-56.8%,0) ' },
-        { transform: 'translate3d(0,0,0) scaleY(1)' }
-      ], options
-    );
-
-    anim.pause();
 
     var grey = document.getElementById("layer-grey").animate(
       [
-        { transform: 'translate3d(0,-5%,0)' },
+        { transform: 'translate3d(0,-7%,0)' },
         { transform: 'translate3d(0,0,0)' }
 
       ], options
@@ -116,32 +108,6 @@ try {
 
     blue.pause();
 
-    var panel = document.getElementById("layer-panel1").animate(
-      [
-        { transform: 'translate3d(0,-20%,0)' },
-        { transform: 'translate3d(0,0,0)' }
-      ], options
-    )
-
-    panel.pause();
-
-    var bottomfabric = document.getElementById("layer-bottom-fabric").animate(
-      [
-        { transform: 'translate3d(0,-56.8%,0) ' },
-        { transform: 'translate3d(0,0,0)' }
-      ], options
-    )
-
-    bottomfabric.pause();
-
-    var bottomtransparent = document.getElementById("layer-bottom-transparent").animate(
-      [
-        { transform: 'translate3d(0,-56.8%,0) ' },
-        { transform: 'translate3d(0,0,0)' }
-      ], options
-    )
-
-    bottomtransparent.pause();
 
   } else {
 
@@ -149,25 +115,7 @@ try {
     var data = [{
       element: document.getElementById("layer-grey"),
       animation: {
-        translateY: -5
-      }
-    },
-    {
-      element: document.getElementById("layer-bottom-solid"),
-      animation: {
-        translateY: -56.8
-      }
-    },
-    {
-      element: document.getElementById("layer-bottom-transparent"),
-      animation: {
-        translateY: -56.8
-      }
-    },
-    {
-      element: document.getElementById("layer-bottom-fabric"),
-      animation: {
-        translateY: -56.8
+        translateY: -7
       }
     },
     {
@@ -178,12 +126,6 @@ try {
     },
     {
       element: document.getElementById("layer-blue"),
-      animation: {
-        translateY: -20
-      }
-    },
-    {
-      element: document.getElementById("layer-panel1"),
       animation: {
         translateY: -20
       }
@@ -225,7 +167,7 @@ try {
     var epsilon = 1.0 / (200.0 * duration);
 
     var t0, t1, t2, x2, d2, i;
-    for (t2 = x, i = 0; i < 8; i++) {
+    for (t2 = x, i = 0; i < 4; i++) {
       x2 = ((ax * t2 + bx) * t2 + cx) * t2 - x; // sample curve x for t2, - x
       if (Math.abs(x2) < epsilon) // obviously, this is determining the accuracy
         return t2;
@@ -304,13 +246,9 @@ try {
 
       if (hasWebAnimations) {
 
-        anim.currentTime = t;
         grey.currentTime = t;
         springs.currentTime = t;
         blue.currentTime = t;
-        panel.currentTime = t;
-        bottomfabric.currentTime = t;
-        bottomtransparent.currentTime = t;
 
       } else {
 
