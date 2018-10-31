@@ -1,1 +1,275 @@
 /* product css */
+.product .top_visual {
+  background: url(../images/product/top_bg.png) center no-repeat;
+  background-size: cover;
+}
+.product .top_visual .wrap {
+  padding-top: 100px;
+}
+.product .top_visual .wrap h2 {
+  text-align: center;
+  font-size: 18px;
+}
+.product .top_visual .wrap img {
+  padding-top: 50px;
+  max-width: 864px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.product .top_visual .wrap p {
+  padding-bottom: 50px;
+  font-size: 30.5px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -2.1px;
+  text-align: center;
+  color: #505050;
+}
+
+.product .section .section_title {
+  text-align: center;
+}
+.product .section .section_title img {
+  max-width: 32px;
+  margin-bottom: 10px;
+}
+
+.product .section.foam {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 70px
+}
+
+.product .section.foam .sub_section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 57px 0;
+}
+
+.product .section.foam .sub_section .cont {
+  width: 42%;
+  margin: 0 4%;
+}
+.product .section.foam .sub_section .cont.txt {
+  padding: 5% 0 0 2%;
+}
+.product .section.foam .sub_section .cont.txt h4 {
+  font-size: 20.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.37;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #2d2b2b;
+}
+.product .section.foam .sub_section .cont.txt p {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.34;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #646464;
+}
+.product .section.foam .sub_section .cont.img img {
+  width: 100%;
+}
+.product .section.foam .sub_section.third h3 {
+  font-size: 28.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -1.1px;
+  text-align: center;
+  color: #2d2b2b;
+}
+.product .section.foam .sub_section.third img {
+  max-width: 927px;
+  width: 100%;
+  padding-top: 46px;
+  margin: 0 auto;
+  display: block;
+}
+.product .section.foam .sub_section.third .flex_cont .cont {
+  width: 50%;
+  padding-top: 15px;
+}
+.product .section.foam .sub_section.third .flex_cont .cont:nth-child(1){
+  padding-left: 9%;
+}
+.product .section.foam .sub_section.third .flex_cont .cont:nth-child(2) {
+  padding-left: 5%;
+}
+.product .section.foam .sub_section.third .flex_cont .cont {
+  font-size: 16px;
+  line-height: 1.34;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #444444;
+}
+.product .section.foam .sub_section.third .flex_cont .cont strong {
+  padding-bottom: 10px;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.34;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #3a3a3a;
+}
+.product .section.cover .banner_cover {
+  margin-top: 30px;
+  height: 300px;
+  background: url(../images/product/banner_cover.png) center no-repeat;
+  background-size: cover;
+}
+.product .section.cover .banner_cover .tensel_wrap {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.product .section.cover .banner_cover .tensel_wrap .tensel {
+  max-width: 382px;
+  width: 100%;
+  position: absolute;
+  top: 230px;
+  right: 0;
+}
+.product .section.cover .sub_section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.product .section.cover .sub_section .about_tensel {
+  padding: 78px 0 79px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.product .section.cover .sub_section .about_tensel h3 {
+  font-size: 24.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2d2b2b;
+}
+.product .section.cover .sub_section .about_tensel p {
+  padding-top: 27px;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.34;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #646464;
+}
+.product .section.cover .sub_section .tensel_info {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.product .section.cover .sub_section .tensel_info ul li {
+  width: 30%;
+  margin: 0 1.666666%;
+  padding: 58px 28px;
+  text-align: center;
+  border: 1px solid #8a8a8a;
+}
+.product .section.cover .sub_section .tensel_info ul li h5 {
+  padding: 31px 0;
+  font-size: 19px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: #3a3a3a;
+}
+.product .section.cover .sub_section .tensel_info ul li p {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #7d7d7d;
+}
+.product .section.cover .sub_section.second {
+  padding: 45px 0;
+}
+.product .section.cover .sub_section.second .flex_cont {
+  padding: 49px 0;
+}
+.product .section.cover .sub_section.second .flex_cont .cont {
+  width: 40%;
+  margin: 0 5%;
+}
+.product .section.cover .sub_section.second .flex_cont .cont.img img {
+  width: 100%;
+}
+.product .section.cover .sub_section.second .flex_cont .cont.txt {
+  padding: 5% 0 0 5%;
+}
+.product .section.cover .sub_section.second .flex_cont .cont.txt h4 {
+  font-size: 25.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2d2b2b;
+}
+.product .section.cover .sub_section.second .flex_cont .cont.txt p {
+  padding-top: 30px;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.34;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #646464;
+}
+
+.product .section.specs .specs_wrap {
+  padding: 51px 0 61px;
+}
+
+.product .section.specs .specs_wrap table {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f0f4fa;
+  border-top: 1px solid #626262;
+  border-bottom: 1px solid #626262;
+}
+.product .section.specs .specs_wrap table td {
+  padding: 25px 42px;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+.product .section.specs .specs_wrap table td.sort {
+  vertical-align: top;
+  font-size: 17px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.product .section.specs .specs_wrap table td strong {
+  font-size: 15px;
+}
+.product .section.specs .specs_wrap table td p {
+  font-size: 17px;
+  line-height: 36px;
+  color:  #3b3b3b;
+}

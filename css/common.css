@@ -8,6 +8,10 @@ body,h1,h2,h3,h4,h5,h6,p,ul,li {
   padding: 0;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 ul li {
   list-style-type: none;
 }
