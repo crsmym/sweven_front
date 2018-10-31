@@ -39,9 +39,19 @@
   -o-transform: translate(-50%, -50%);
 }
 
+#main .visual .text_box .visual_title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
 #main .visual .text_box img {
   max-width: 55px;
-  margin: 20px 0 10px;
+  margin: 35px 0 20px;
+}
+
+#main .visual .text_box .sub_title {
+  font-size: 23px;
+  color: #333;
 }
 
 #scrollDown {
@@ -128,8 +138,8 @@
   background-size: 60% 100%;
 }
 .section.gallery .slider_container .main_slide {
-  max-width: 1366px;
-  margin: 0 auto;  
+  /* max-width: 1366px;
+  margin: 0 auto;   */
 }
 .section.gallery .slider_container .main_slide .flickity-button.previous {
   background: url(../images/main/slide_l.png) center no-repeat;
