@@ -24,16 +24,10 @@
   height: 100%;
   color: #003da5;
 }
-
-/* about1 page css */
-#about.about1 {
-  padding-top: 140px;
-}
-
-#about.about1 .section .section_title {
-  padding: 61px 0;
+#about .section .section_title {
+  padding: 50px 0;
   font-size: 35.5px;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.39;
@@ -41,22 +35,28 @@
   text-align: center;
   color: #333333;
 }
-#about.about1 .section .hero {
+
+/* about1 page css */
+.about1 {
+  padding-top: 140px;
+}
+
+.about1 .section .hero {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-#about.about1 .section .hero img {
+.about1 .section .hero img {
   width: 100%;
 }
-#about.about1 .section .sub_section .flex_cont {
+.about1 .section .sub_section .flex_cont {
   max-width: 1200px;
   margin: 0 auto;
 }
-#about.about1 .section .sub_section .flex_cont .cont {
+.about1 .section .sub_section .flex_cont .cont {
   width: 50%;
 }
-#about.about1 .section .flex_cont .cont.txt {
+.about1 .section .flex_cont .cont.txt {
   font-family: "SourceHanSansK";
   font-size: 19px;
   font-weight: 300;
@@ -67,14 +67,12 @@
   text-align: left;
   color: #616161;
 }
-#about.about1 .section .flex_cont .cont.img img {
+.about1 .section .flex_cont .cont.img img {
   max-width: max-content;
 }
 
 /* sec1 */
-#about.about1 .section.first {
-  padding: 40px 0;
-}
+
 .section.first .sub_section.first .flex_cont .cont.txt {
   padding: 15% 0 0 10%;
 }
@@ -92,15 +90,16 @@
 }
 
 /* sec2 */
-#about.about1 .section.second {
+.about1 .section.second {
   padding: 0 0 120px;
 }
-.section.second .section_title {
+#about .section.second .section_title {
   position: relative;
+  padding: 80px 0 50px;
 }
 .section.second .section_title::before {
   position: absolute;
-  top: -50%;
+  top: -35%;
   content: '';
   display: inline-block;
   width: 1px;
@@ -147,4 +146,30 @@
 .section.second .sub_section.second .flex_cont .cont.img img {
   position: relative;
   top: -85px;
+}
+
+/* about2 */
+.about2 {
+  padding-top: 140px;
+}
+
+.about2 .section .sub_section_title {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.34;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: #646464;
+}
+.about2 .section .video_wrap {
+  padding: 57px 0 97px;
+}
+.about2 .section .video_wrap .img_box {
+  text-align: center;
+}
+.about2 .section .video_wrap .img_box a img {
+  max-width: 900px;
+  width: 100%;
 }
