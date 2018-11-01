@@ -1,8 +1,16 @@
 @font-face {
-  font-family: "SourceHanSansK", "Montserrat", sans-serif;
-  src:url(../font/SourceHanSansKR-Normal.otf);
+  font-family: "MontserratB";
+  src: 
+      local(Montserrat-bold),
+      url(../font/Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: "MontserratR";
+  src: 
+      local(Montserrat-Regular),
+      url(../font/Montserrat-Regular.ttf) format('truetype');
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "MontserratB", sans-serif;
 }

@@ -67,6 +67,7 @@
 
 .gnb .navigation .links a {
   vertical-align: -12px;
+  font-size: 15px;
 }
 
 /* header - shop link */
@@ -77,5 +78,13 @@
 }
 
 .gnb .shop_link a {
+  display: inline-block;
+  width: 108px;
+  height: 34px;
+  text-align: center;
+  border-radius: 17px;
+  color: #204392;
+  border: solid 1px #204391;
   vertical-align: -12px;
+  line-height: 29px;
 }

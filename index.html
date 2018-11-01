@@ -6,14 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="css/common.css">
-  <!-- <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/slick-theme.css"> -->
   <link rel="stylesheet" href="css/flickity.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/animation.js" defer="defer"  ></script>
-  <!-- <script src="js/slick.min.js"></script> -->
   <script src="js/flickity.pkgd.min.js"></script>
   <script src="js/script.js"></script>
   <title>sweven</title>
@@ -47,7 +44,7 @@
     <div class="visual">
       <div class="text_box">
         <h2 class="visual_title">
-          Switch To Be You, sweven
+          Switch To Be You, SWEVEN
         </h2>
         <img src="images/main/sweven_logo.png" alt="스웨븐 로고">
         <p class="sub_title">
@@ -256,5 +253,24 @@
     </div>
   </div>
   <!-- end footer -->
+  <script>
+// main page slider
+// use flickity
+  $('.main_slide').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  wrapAround: true,
+  pageDots: false
+  });
+
+  // slides first child hide
+  $('.main_slide .flickity-slider li:first-child').hide();
+  $('.flickity-button').click(function () {
+  //effect when the click slides button
+  $('.main_slide .flickity-slider li:first-child').fadeIn(300);
+  $('.gallery_sub').fadeOut(200);
+  })
+</script>
 </body>
 </html>
