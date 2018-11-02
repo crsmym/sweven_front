@@ -215,3 +215,11 @@
   height: 900px;
 }
 
+/* lazyload */
+.lazyload1,
+.lazyload2,
+.lazyload3 {
+  position: relative;
+  top: 100px;
+  opacity: 0;
+}
