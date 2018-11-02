@@ -1,0 +1,61 @@
+/* responsive css */
+
+/* hide and show */
+.is-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .is-mobile {
+    display: block !important; 
+  }
+  .is-desktop {
+    display: none !important;
+  }
+}
+
+/* header */
+@media (max-width: 768px) {
+  .m_gnb {position: relative;}
+  .m_gnb .wrap {padding: 10px 5%; display: flex; flex-direction: row;}
+  .m_gnb .wrap .logo {width: 80%; text-align: center;}
+  .m_gnb .wrap .logo img {max-width: 98px; height: 100%;;}
+  .m_gnb .wrap #burger_btn {width: 10%}
+  .m_gnb .wrap #burger_btn img {max-width: 27px; vertical-align: -14px;}
+  .m_gnb .wrap #cart_btn {width: 10%; text-align: right;}
+  .m_gnb .wrap #cart_btn img {max-width: 26.5px; vertical-align: -19px;}
+  .m_gnb .navigation_wrap {position: absolute; top:0; left: -290px; background: #fff; height: 100vh; width: 270px; z-index: 777;}
+  .m_gnb .navigation_wrap h2 {padding: 15px 0 15px 12px; background-color:#f0f4f9; color: #b9c5d4; font-size: 24px;}
+  .m_gnb .navigation_wrap .navigation {border-top: 1px solid #ddd;}
+  .m_gnb .navigation_wrap .navigation li {border-bottom: 1px solid #ddd; padding: 20px 0 20px 10px; font-size: 17px; font-weight: 300; font-family: "MontserratR";}
+  .m_gnb .navigation_wrap .navigation li a {text-transform: capitalize;}
+  #close_btn {position: absolute; top: 13px; left: 278px; z-index: 777; display: none;}
+  #close_btn img {max-width: 22px;}
+  #dim {position: fixed; top: 0; right: 0; bottom:0; left: -100%; width: 100%; background-color: #000; opacity: 0.4; z-index: 666;}
+}
+
+/* main page top visual */
+@media (max-width: 768px) {
+  #main .m_visual img {
+    width: 100%;
+  }
+}
+
+/* main page product */
+@media (max-width: 768px) {
+  #main .product_intro.flex_cont {
+    flex-direction: column;
+  }
+  #main .product_intro.flex_cont .cont {
+    width: 100%;
+  }
+}
+
+/* main page gallery */
+@media (max-width: 768px) {
+  #main .contents .section.gallery .slider_container {
+    background-size: 70% 100%;
+  }
+  .section.gallery .slider_container .main_slide .flickity-button.next {display:none;}
+  .section.gallery .slider_container .main_slide .flickity-button.previous{display: none;}
+}

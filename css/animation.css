@@ -195,13 +195,14 @@
   pointer-events: none;
 }
 
-@media (max-width :960px) {
+@media (max-width :768px) {
   .animation-container {
-    max-width: 452px;
+    max-width: 652px;
+    margin-bottom: 30px;
   }
 }
 
-@media (max-width :550px) {
+@media (max-width :400px) {
   .animation-container {
     max-width: 300px;
   }

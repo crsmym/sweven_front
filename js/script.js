@@ -42,5 +42,26 @@ $(function(){
         }, 1100)
       }
     });
+  });
+
+  // mobile navigation menu slide toggle 
+  $("#burger_btn").click(function(){
+    $('#close_btn').show()
+    $('.m_gnb .navigation_wrap').animate({
+      left: 0
+    },500)
+    $('#dim').animate({
+      left: 0
+    },200)
+  });
+
+  $('#close_btn, #dim').click(function(){
+    $('#close_btn').hide()
+    $('.m_gnb .navigation_wrap').animate({
+      left: "-290px"
+    }, 300)
+    $('#dim').animate({
+      left: "-100%"
+    }, 500)
   })
 })
