@@ -6,6 +6,8 @@
   0% { bottom: 20px; }
 } */
 
+
+/* animation for main page mattress */
 .index-animation {
   position: relative;
 }
@@ -222,4 +224,334 @@
   position: relative;
   top: 100px;
   opacity: 0;
+}
+
+
+/* animation for product page mattress */
+.c-tech-intro {
+  padding: 40px 15px 65px;
+  text-align: center
+}
+
+.c-tech-intro__title {
+  position: relative;
+  max-width: 500px
+}
+
+
+.c-tech-intro__mattress:before,
+.c-tech-intro__part--core:before,
+.c-tech-intro__part:after,
+.c-tech-intro__part:before,
+.c-trial-showroom:before,
+.c-trial-showroom__bedframe-shadow:before,
+.c-trial-showroom__bedframe:before,
+.c-trial-showroom__bedrail-shadow:before,
+.c-trial-showroom__cheap-light:before,
+.c-trial-showroom__mattress-side:before,
+.c-trial-showroom__pillow:before,
+.c-trial-showroom__price-stand:before,
+.c-trial-showroom__rug:before,
+.c-trial-showroom__wall-art:before,
+.c-vpf-tech__text-block:after {
+  content: ''
+}
+
+@media screen and (min-width:1024px) {
+  .c-tech-intro {
+    padding: 200px 15px 68px
+  }
+
+  .c-tech-intro__title {
+    max-width: 700px
+  }
+}
+
+.c-tech-intro__text {
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px
+}
+
+.c-tech-intro__mattress {
+  position: relative;
+  width: 90%;
+  max-width: 1008px
+}
+
+@media screen and (max-width:719px) {
+  .c-tech-intro {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column
+  }
+
+  .c-tech-intro__title {
+    -webkit-order: 1;
+    order: 1
+  }
+
+  .c-tech-intro__text {
+    -webkit-order: 3;
+    order: 3;
+    margin-top: 60px;
+    margin-bottom: 0
+  }
+
+  .c-tech-intro__mattress {
+    -webkit-order: 2;
+    order: 2
+  }
+}
+
+@media screen and (min-width:720px) {
+  .c-tech-intro__title:before {
+    font-size: 16px
+  }
+
+  .c-tech-intro__mattress {
+    width: 55%;
+    margin: auto;
+  }
+
+  .c-vpf-tech__video {
+    margin-bottom: 20px
+  }
+}
+
+.c-tech-intro__mattress:before {
+  display: block;
+  padding-bottom: 31.05159%
+}
+
+.c-tech-intro__part,
+.c-tech-intro__part:after,
+.c-tech-intro__part:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  opacity: 0;
+  -moz-transition: opacity .3s ease-out, -moz-transform .8s ease-out;
+  -o-transition: opacity .3s ease-out, -o-transform .8s ease-out;
+  -webkit-transition: opacity .3s ease-out, -webkit-transform .8s ease-out;
+  transition: opacity .3s ease-out, transform .8s ease-out
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__part,
+.c-tech-intro.is-transitioned .c-tech-intro__part:after,
+.c-tech-intro.is-transitioned .c-tech-intro__part:before {
+  opacity: 1
+}
+
+.c-tech-intro__part--core:after {
+  background-image: url(../images/product/product_04.png);
+  background-size: contain;
+  -moz-transform: translateY(-90.92332%);
+  -ms-transform: translateY(-90.92332%);
+  -webkit-transform: translateY(-90.92332%);
+  transform: translateY(-90.92332%)
+}
+
+.c-tech-intro__part--smt:after,
+.c-tech-intro__part--smt:before {
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__part--core:after {
+  -moz-transform: translateY(24%);
+  -ms-transform: translateY(24%);
+  -webkit-transform: translateY(24%);
+  transform: translateY(24%);
+  width: 105%;
+  left: -34px
+}
+
+.c-tech-intro__part--core:before {
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: -10%;
+  left: 0;
+  height: 0;
+  width: 70%;
+  -moz-transform: perspective(300px) rotateX(10deg);
+  -ms-transform: perspective(300px) rotateX(10deg);
+  -webkit-transform: perspective(300px) rotateX(10deg);
+  transform: perspective(300px) rotateX(10deg);
+  -moz-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -moz-transition: opacity .8s ease-in-out, width .8s ease-in-out;
+  -o-transition: opacity .8s ease-in-out, width .8s ease-in-out;
+  -webkit-transition: opacity .8s ease-in-out, width .8s ease-in-out;
+  transition: opacity .8s ease-in-out, width .8s ease-in-out
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__part--core:before {
+  width: 95%
+}
+
+.c-tech-intro__part--smt {
+  -moz-transition-delay: .6s;
+  -o-transition-delay: .6s;
+  -webkit-transition-delay: .6s;
+  transition-delay: .6s
+}
+
+.c-tech-intro__part--smt:before {
+  /*background-image: url(../images/components/tech-intro/smt-shadow.png);*/
+  background-size: contain;
+  -moz-transform: translateY(-26.51757%);
+  -ms-transform: translateY(-26.51757%);
+  -webkit-transform: translateY(-26.51757%);
+  transform: translateY(-26.51757%);
+  -moz-transition: opacity .9s ease-in-out .9s;
+  -o-transition: opacity .9s ease-in-out .9s;
+  -webkit-transition: opacity .9s ease-in-out;
+  -webkit-transition-delay: .9s;
+  transition: opacity .9s ease-in-out .9s
+}
+
+.c-tech-intro__part--smt:after {
+  background-image: url(../images/product/product_03.png);
+  background-size: contain;
+  -moz-transform: translateY(-74.44089%);
+  -ms-transform: translateY(-74.44089%);
+  -webkit-transform: translateY(-74.44089%);
+  transform: translateY(-74.44089%);
+  -moz-transition-delay: .6s;
+  -o-transition-delay: .6s;
+  -webkit-transition-delay: .6s;
+  transition-delay: .6s
+}
+
+.c-tech-intro__part--cover:before,
+.c-tech-intro__part--reticulated {
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__part--smt:after {
+  -moz-transform: translateY(-19.51757%);
+  -ms-transform: translateY(-19.51757%);
+  -webkit-transform: translateY(-19.51757%);
+  transform: translateY(-19.51757%)
+}
+
+.c-tech-intro__part--reticulated {
+  background-image: url(../images/product/product_02.png);
+  background-size: contain;
+  -moz-transform: translateY(-63.89776%);
+  -ms-transform: translateY(-63.89776%);
+  -webkit-transform: translateY(-63.89776%);
+  transform: translateY(-63.89776%);
+  -moz-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__part--reticulated {
+  -moz-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  -webkit-transform: translateY(-30%);
+  transform: translateY(-30%)
+}
+
+.c-tech-intro__part--cover {
+  -moz-transform: translateY(.31949%);
+  -ms-transform: translateY(.31949%);
+  -webkit-transform: translateY(.31949%);
+  transform: translateY(.31949%);
+  -moz-transition-delay: 2s;
+  -o-transition-delay: 2s;
+  -webkit-transition-delay: 2s;
+  transition-delay: 2s
+}
+
+.c-tech-intro__part--cover:before {
+  background-image: url(../images/product/product_03.png);
+  background-size: contain;
+  -moz-transition: opacity .8s ease-in-out 2.2s;
+  -o-transition: opacity .8s ease-in-out 2.2s;
+  -webkit-transition: opacity .8s ease-in-out;
+  -webkit-transition-delay: 2.2s;
+  transition: opacity .8s ease-in-out 2.2s
+}
+
+.c-tech-intro__part--cover:after {
+  background-image: url(../images/product/product_03.png);
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  -moz-transform: translateY(3.19489%);
+  -ms-transform: translateY(3.19489%);
+  -webkit-transform: translateY(3.19489%);
+  transform: translateY(3.19489%);
+  -moz-transition-delay: 3s;
+  -o-transition-delay: 3s;
+  -webkit-transition-delay: 3s;
+  transition-delay: 3s
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__part--cover:after {
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0)
+}
+
+
+.c-tech-intro__part--cover:before,
+.c-tech-intro__part--top {
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain
+}
+
+.c-tech-intro__part--top {
+  background-image: url(../images/product/product_01.png);
+  background-size: contain;
+  -moz-transform: translateY(-80.89776%);
+  -ms-transform: translateY(-80.89776%);
+  -webkit-transform: translateY(-80.89776%);
+  transform: translateY(-80.89776%);
+  -moz-transition-delay: 1.5s;
+  -o-transition-delay: 1.7s;
+  -webkit-transition-delay: 1.7s;
+  transition-delay: 1.7s
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__part--top {
+  -moz-transform: translateY(-55.9361%);
+  -ms-transform: translateY(-55.9361%);
+  -webkit-transform: translateY(-55.9361%);
+  transform: translateY(-55.9361%)
+}
+
+
+
+.c-tech-intro__text,
+.c-tech-intro__title {
+  opacity: 0;
+  -moz-transition: opacity .5s ease-in-out 2s;
+  -o-transition: opacity .5s ease-in-out 2s;
+  -webkit-transition: opacity .5s ease-in-out;
+  -webkit-transition-delay: 2s;
+  transition: opacity .5s ease-in-out 2s
+}
+
+.c-tech-intro.is-transitioned .c-tech-intro__text,
+.c-tech-intro.is-transitioned .c-tech-intro__title {
+  opacity: 1
 }

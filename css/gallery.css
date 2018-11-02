@@ -12,14 +12,14 @@
 .gallery .wrap .gallery_list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: wrap;  
+  margin: 0 -1.166666%;
 }
 
 .gallery .wrap .gallery_list .list {
   max-width: 385px;
-  width: 32%;
-  margin-bottom: 50px;
+  width: 31%;
+  margin: 0 1.166666% 50px;
   border: solid 1px #d9d9d9;
 }
 

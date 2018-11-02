@@ -11,10 +11,17 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/animation.js" defer="defer"></script>
   <script src="js/flickity.pkgd.min.js"></script>
   <script src="js/script.js"></script>
   <title>sweven::product</title>
+  <script>
+    $(window).load(function() {
+
+    jQuery('.c-tech-intro').addClass('is-transitioned');
+    });
+  </script>
 </head>
 
 <body>
@@ -46,7 +53,14 @@
       <div class="wrap">
         <h2 class="en">PRODUCT</h2>
         <!-- product animation -->
-        <img src="images/product/mattress.png" alt="">
+          <div class="c-tech-intro u-bg-med-gray">
+            <div class="c-tech-intro__mattress">
+              <div class="c-tech-intro__part c-tech-intro__part--core"></div>
+              <div class="c-tech-intro__part c-tech-intro__part--smt"></div>
+              <div class="c-tech-intro__part c-tech-intro__part--reticulated"></div>
+              <div class="c-tech-intro__part c-tech-intro__part--top"></div>
+            </div>
+          </div>
         <!-- end product animation -->
         <p>
           최상의 회복을 위한 최적의 설계, <br>
