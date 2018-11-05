@@ -75,12 +75,12 @@
 }
 .section.first .sub_section.first .flex_cont .cont.img {
   text-align: center;
+  padding: 100px 0 0;
 }
 .section.first .sub_section.first .flex_cont .cont.img img {
-  position: relative;
-  top: 115px;
-  left: -20px;
   width: 76%;
+  margin-bottom: -140px;
+  margin-right: 20px;
 }
 .section.first .sub_section.first .bg_wrap {
   background-color: #f0f4fa;
@@ -119,7 +119,7 @@
   padding: 9% 0 0 5%;
 }
 .section.second .sub_section.second .flex_cont .cont.txt {
-  padding: 5% 0 0 6%;
+  padding: 5% 0 12% 6%;
 }
 .section.second .sub_section.fourth .flex_cont .cont.txt {
   padding: 15% 0 0 6%;
@@ -138,14 +138,12 @@
   margin: 15px 0;
 }
 .section.second .sub_section.first .flex_cont .cont.img img {
-  position: relative;
-  left: 50px;
   width: 76%;
+  margin-left: 50px;
 }
 .section.second .sub_section.second .flex_cont .cont.img img {
-  position: relative;
-  top: -85px;
   width: 83%;
+  margin-top: -85px;
 }
 .section.second .sub_section.third .flex_cont .cont.img img {
   width: 85%;

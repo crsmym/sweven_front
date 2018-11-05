@@ -44,7 +44,7 @@
 /* banner */
 @media (max-width: 768px) {
   #banner {
-    padding: 40px 15px 40px;
+    padding: 40px 15px 0;
   }
 
   #banner .flex_cont {
@@ -53,11 +53,23 @@
 
   #banner .cont.right h4 {
     font-size: 5.5vw;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 
   }
   #banner .cont.right p {
     font-size: 2.8vw
+  }
+  
+  #banner .cont.left img {
+    padding-top: 30%;
+  }
+  #banner .cont.right .shop_link {
+    width: 125px;
+    font-size: 14px;
+    line-height: 38px;
+  }
+  #banner .cont.right p {
+    margin-bottom: 10px;
   }
 }
 /* main page product */
