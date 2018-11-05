@@ -157,19 +157,26 @@
 /* product page */
 @media (max-width:768px) {
   .product .section.foam {
-    padding: 0 5%;
+    padding: 25px 0 0;
   }
   .product .section.foam .sub_section {
     padding: 18px 0;
   }
   .product .section .sub_section.first {
     flex-direction: column-reverse;
+    width: 90%; 
+    margin: 0 auto;
   }
   .product .section .sub_section.second {
     flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .product .section.foam .sub_section.third img {
+    padding: 20px 0 0 15px;
   }
   .product .section.foam .sub_section.third div.is-mobile ul {
-    padding: 10px 25px;
+    padding: 10px 5%;
     background-color: #f8fcff;
   }
   .product .section.foam .sub_section.third div.is-mobile ul li {
@@ -194,8 +201,9 @@
   .product .section.foam .sub_section .cont.txt {
     padding: 15px 0;
   }
+  
   .product .section.cover .sub_section .about_tensel {
-    padding: 39px 5% 51px;
+    padding: 50px 0 41px;
   }
   .product .section.cover .banner_cover {
     height: 0;
@@ -212,14 +220,14 @@
   .product .section.cover .sub_section .about_tensel h3 {
     font-size: 20.5px;
   }
-  .product .section.cover .sub_section .tensel_info .product_m_slide {
-    
-  }
+  .product .section.cover .sub_section .tensel_info .product_m_slide .flickity-slider {
+
+}
   .product .section.cover .sub_section .tensel_info .product_m_slide .slides {
-    width: 80%;
+    width: 75%;
     min-height: 100%;
-    margin: 0 5%;
-    padding: 82px 0;
+    margin: 0 7%;
+    padding: 45px 0;
     border: 1px solid #8a8a8a;
     text-align: center;
   }
@@ -239,8 +247,6 @@
     display: none;
   }
   .product .section.cover .sub_section.second .flex_cont {
-    width: 90%;
-    margin: 0 auto;
     flex-direction: column;
     padding: 15px 0;
   }
@@ -297,5 +303,20 @@
   }
   .product .section.specs .specs_wrap .tab_menu .tab_list strong {
     font-size: 17.5px;
+  }
+}
+
+/* gallery page */
+
+@media (max-width: 768px) {
+  .gallery {
+    padding-top: 90px;
+  }
+  .gallery .wrap .gallery_list {
+    flex-direction: column;
+  }
+  .gallery .wrap .gallery_list .list {
+    width: 90%;
+    margin: 0 auto 25px;
   }
 }

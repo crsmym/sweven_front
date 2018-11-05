@@ -67,9 +67,6 @@
   text-align: left;
   color: #616161;
 }
-.about1 .section .flex_cont .cont.img img {
-  max-width: max-content;
-}
 
 /* sec1 */
 
@@ -83,6 +80,7 @@
   position: relative;
   top: 115px;
   left: -20px;
+  width: 76%;
 }
 .section.first .sub_section.first .bg_wrap {
   background-color: #f0f4fa;
@@ -142,10 +140,18 @@
 .section.second .sub_section.first .flex_cont .cont.img img {
   position: relative;
   left: 50px;
+  width: 76%;
 }
 .section.second .sub_section.second .flex_cont .cont.img img {
   position: relative;
   top: -85px;
+  width: 83%;
+}
+.section.second .sub_section.third .flex_cont .cont.img img {
+  width: 85%;
+}
+.section.second .sub_section.fourth .flex_cont .cont.img img {
+  width: 73%;
 }
 
 /* about2 */

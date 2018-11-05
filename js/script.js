@@ -19,7 +19,7 @@ $(function(){
         $(this).animate({
           'opacity': '1',
           'top': 0,
-        }, 500)
+        }, 300)
       }
     });
     $('.lazyload2').each(function (i) {
@@ -29,7 +29,7 @@ $(function(){
         $(this).animate({
           'opacity': '1',
           'top': 0,
-        }, 800)
+        }, 600)
       }
     });
     $('.lazyload3').each(function (i) {
@@ -39,7 +39,7 @@ $(function(){
         $(this).animate({
           'opacity': '1',
           'top': 0,
-        }, 1100)
+        }, 900)
       }
     });
   });

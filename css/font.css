@@ -11,3 +11,6 @@
       url(../font/Montserrat-Regular.ttf) format('truetype');
 }
 
+* {
+  font-family: 'Noto Sans KR','Noto Sans',sans-serif;
+}
