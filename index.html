@@ -240,7 +240,8 @@
             <div class="wrap">
               <div class="flex_cont">
                 <div class="cont left">
-                  <img class="lazyload2" src="images/main/banner_img.png" alt="">
+                  <img class="lazyload2 is-desktop" src="images/main/banner_img.png" alt="">
+                  <img class="lazyload2 is-mobile" src="images/main/m_banner_img.png" alt="">
                 </div>
                 <div class="cont right">
                   <h4 class="en">Switch To Be You, SWEVEN.</h4>  
@@ -260,7 +261,8 @@
                 <p>OUR SYSTEM</p>
               </h3>
               <div class="bg_wrap">
-                <img src="images/main/system_bg.png" alt="">
+                <img class="is-desktop" src="images/main/system_bg.png" alt="">
+                <img class="is-mobile" src="images/main/m_system_bg.png" alt="">
               </div>
               <h4 class="sub_title">
                 스웨븐,  어떻게 만들어지는지 궁금하신가요?
@@ -309,11 +311,9 @@
   });
 
   // slides first child hide
-  $('.main_slide .flickity-slider li:first-child').hide();
   $('.flickity-button').click(function () {
-  //effect when the click slides button
-  $('.main_slide .flickity-slider li:first-child').fadeIn(300);
-  $('.gallery_sub').fadeOut(200);
+    //effect when the click slides button
+    $('.gallery_sub').fadeOut(200);
   })
 </script>
 </body>

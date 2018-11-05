@@ -26,27 +26,63 @@
 
 <body>
 
-  <!-- navigation -->
-  <div id="header">
-    <div class="wrap">
-      <div class="gnb">
+<!-- navigation -->
+<div id="header">
+  <div class="wrap">
+
+    <!-- use desktop -->
+    <div class="gnb is-desktop">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="images/header/sweven_tit.svg" alt="스웨븐">
+        </a>
+      </h1>
+      <ul class="navigation">
+        <li class="links"><a class="en" href="about1.html">about</a></li>
+        <li class="links"><a class="en" href="product.html">product</a></li>
+        <li class="links"><a class="en" href="gallery.html">gallery</a></li>
+      </ul>
+      <div class="shop_link">
+        <a class="en" href="#">shop</a>
+      </div>
+    </div>
+
+    <!-- use mobile -->
+    <div class="m_gnb is-mobile">
+      <div class="wrap">
+        <a id="burger_btn" href="#">
+          <img src="images/main/burger_btn.png" alt="메뉴열기">
+        </a>
         <h1 class="logo">
           <a href="index.html">
-            <img src="images/main/sweven_tit.png" alt="스웨븐">
+            <img src="images/header/sweven_tit.svg" alt="스웨븐">
           </a>
         </h1>
+        <a id="cart_btn" href="">
+          <img src="images/main/cart_btn.png" alt="상점가기">
+        </a>
+      </div>
+      <div class="navigation_wrap">
+        <h2>
+          Switch To Be You, <br>
+          SWEVEN
+          <a id="close_btn" href="#">
+            <img src="images/main/close_btn.png" alt="닫기">
+          </a>
+        </h2>
         <ul class="navigation">
-          <li class="links en"><a href="about1.html">about</a></li>
-          <li class="links active en"><a href="product.html">product</a></li>
-          <li class="links en"><a href="gallery.html">gallery</a></li>
+          <li class="links"><a class="" href="about1.html">about</a></li>
+          <li class="links"><a class="" href="product.html">product</a></li>
+          <li class="links"><a class="" href="gallery.html">gallery</a></li>
+          <li class="links"><a class="" href="">shop</a></li>
         </ul>
-        <div class="shop_link">
-          <a class="en" href="#">shop</a>
-        </div>
+      </div>
+      <div id="dim">
       </div>
     </div>
   </div>
-  <!-- end navigation -->
+</div>
+<!-- end navigation -->
   
   <div id="product" class="container product">
     <div class="top_visual">
@@ -115,8 +151,9 @@
             
             <div class="sub_section third">
               <h3>어디서나 누구나 편안하도록, <br> 이중 레이어 구조</h3>
-              <img src="images/product/product_img3.png" alt="">
-              <div class="flex_cont">
+              <img class="is-desktop" src="images/product/product_img3.png" alt="">
+              <img class="is-mobile" src="images/product/m_product_img3.png" alt="">
+              <div class="flex_cont is-desktop">
                 <div class="cont">
                   <strong>상단 메모리폼</strong>
                   다양한 수면 자세에 대해 하중을 골고루 <br>
@@ -129,6 +166,22 @@
                   건장한 남성이 누워도 바닥에 직접 닿지 않도록 <br> 
                   탄탄한 지지대 역할을 합니다.
                 </div>
+              </div>
+              <div class="is-mobile">                
+                <ul>
+                  <li>
+                    <strong>상단 메모리폼</strong>
+                      다양한 수면 자세에 대해 하중을 골고루
+                      분산시켜 편안함을 유지하며, 자연스러운 
+                      체형의 굴곡을 유지시켜 줍니다.
+                  </li>
+                  <li>
+                    <strong>하단 메모리폼</strong>
+                      메모리폼의 안락함과 편안함은 유지하되 
+                      건장한 남성이 누워도 바닥에 직접 닿지 않도록 
+                      탄탄한 지지대 역할을 합니다.
+                  </li>
+                </ul>
               </div>
             </div>            
           </div>
@@ -159,8 +212,9 @@
                 </p>
               </div>
               <div class="tensel_info">
-                <ul class="flex_cont">
-                  <li class="lazyload2">
+                <!-- desktop -->
+                <ul class="info_list flex_cont is-desktop">
+                  <li class="lazyload1">
                     <img src="images/product/tensel_info1.png" alt="">
                     <h5>민감한 피부에도 안심</h5>
                     <p>
@@ -178,7 +232,37 @@
                       수면 시 쾌적함 유지
                     </p>
                   </li>
-                  <li class="lazyload2">
+                  <li class="lazyload3">
+                    <img src="images/product/tensel_info3.png" alt="">
+                    <h5>기능성과 실용성 겸비</h5>
+                    <p>
+                      물 세탁이 가능하며 <br>
+                      세탁 시 보풀 발생량이 적어 <br>
+                      언제나 새 것처럼
+                    </p>
+                  </li>
+                </ul>
+                <!-- mobile -->
+                <ul class="info_list product_m_slide is-mobile">
+                  <li class="slides">
+                    <img src="images/product/tensel_info1.png" alt="">
+                    <h5>민감한 피부에도 안심</h5>
+                    <p>
+                      렌징 텐셀은 부드러운 표면적으로 <br>
+                      부드러운 감촉을 선사하고 <br>
+                      민감한 피부에도 안심하고 사용 가능
+                    </p>
+                  </li>
+                  <li class="slides">
+                    <img src="images/product/tensel_info2.png" alt="">
+                    <h5>수면 시 쾌적함 유지</h5>
+                    <p>
+                      면보다 우수한 흡습성으로 <br>
+                      수면 중 발생하는 땀의 흡수율을 높여 <br>
+                      수면 시 쾌적함 유지
+                    </p>
+                  </li>
+                  <li class="slides">
                     <img src="images/product/tensel_info3.png" alt="">
                     <h5>기능성과 실용성 겸비</h5>
                     <p>
@@ -231,7 +315,7 @@
               <p class="en">SPECS</p>
             </h3>
             <div class="specs_wrap">
-              <table>
+              <table class="is-desktop">
                 <tr>
                   <td class="sort">
                     SIZE (중량포함)
@@ -273,6 +357,49 @@
                   </td>
                 </tr>
               </table>
+              <div class="is-mobile">
+                <ul class="tab_menu">
+                  <li>
+                    <a href="#">
+                      사이즈(중량포함)
+                      <img src="images/product/plus_icon.png" alt="">
+                    </a>
+                    <div class="tab_list">
+                      <strong>SS (슈퍼싱글)</strong> <br>
+                      1100 x 2000 x 90mm, 약 13kg <br>
+                      <span style="color:#848484; font-size: 15px;">*너비,길이,두께 오차범위 ±10mm,</span> 
+                      <br><br>
+                      <strong>Q (퀸)</strong><br>
+                      1500 x 2000 x 90mm, 약 16kg <br>
+                      <span style="color:#848484; font-size: 15px;">*너비,길이,두께 오차범위 ±10mm,</span> 
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#">
+                      MATERIALS
+                      <img src="images/product/plus_icon.png" alt="">
+                    </a>
+                    <div class="tab_list">
+                      <strong>내장재</strong><br>
+                      High open-cell memory foam 60mm / Suppor foam 20mm / 싱글니트
+                      <br><br>
+                      <strong>원단</strong><br>
+                      렌징 텐셀 3중직 니트 원단
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#">
+                      CERTIFICATIONS
+                      <img src="images/product/plus_icon.png" alt="">
+                    </a>
+                    <div class="tab_list">
+                      <strong>FITI</strong> <br> 
+                      - 포름알데히드(원단) 배출 없음 <br>
+                      - 생활마모, 땀 등으로 원단의 변형, 변색이 거의 없음 <br>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <!-- end section specs --> 
@@ -317,6 +444,24 @@
     </div>
   </div>
   <!-- end footer -->
+  <script>
+  // mobile slide  
+  $('.product_m_slide').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    pageDots: true,
+    freeScroll: true
+  });
+
+  // mobile tab menu
+  $('.tab_list').hide();
+  $('.tab_menu a').click(function(){
+    event.preventDefault();
+    $(this).siblings('.tab_list').slideToggle();
+    $(this).children('img').toggleClass('opened');
+  })
+  </script>
 </body>
 
 </html>

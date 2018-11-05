@@ -22,27 +22,63 @@
 
 <body>
 
-  <!-- navigation -->
-  <div id="header">
-    <div class="wrap">
-      <div class="gnb">
+<!-- navigation -->
+<div id="header">
+  <div class="wrap">
+
+    <!-- use desktop -->
+    <div class="gnb is-desktop">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="images/header/sweven_tit.svg" alt="스웨븐">
+        </a>
+      </h1>
+      <ul class="navigation">
+        <li class="links"><a class="en" href="about1.html">about</a></li>
+        <li class="links"><a class="en" href="product.html">product</a></li>
+        <li class="links"><a class="en" href="gallery.html">gallery</a></li>
+      </ul>
+      <div class="shop_link">
+        <a class="en" href="#">shop</a>
+      </div>
+    </div>
+
+    <!-- use mobile -->
+    <div class="m_gnb is-mobile">
+      <div class="wrap">
+        <a id="burger_btn" href="#">
+          <img src="images/main/burger_btn.png" alt="메뉴열기">
+        </a>
         <h1 class="logo">
           <a href="index.html">
             <img src="images/header/sweven_tit.svg" alt="스웨븐">
           </a>
         </h1>
+        <a id="cart_btn" href="">
+          <img src="images/main/cart_btn.png" alt="상점가기">
+        </a>
+      </div>
+      <div class="navigation_wrap">
+        <h2>
+          Switch To Be You, <br>
+          SWEVEN
+          <a id="close_btn" href="#">
+            <img src="images/main/close_btn.png" alt="닫기">
+          </a>
+        </h2>
         <ul class="navigation">
-          <li class="links active en"><a href="about1.html">about</a></li>
-          <li class="links en"><a href="product.html">product</a></li>
-          <li class="links en"><a href="gallery.html">gallery</a></li>
+          <li class="links"><a class="" href="about1.html">about</a></li>
+          <li class="links"><a class="" href="product.html">product</a></li>
+          <li class="links"><a class="" href="gallery.html">gallery</a></li>
+          <li class="links"><a class="" href="">shop</a></li>
         </ul>
-        <div class="shop_link">
-          <a class="en" href="#">shop</a>
-        </div>
+      </div>
+      <div id="dim">
       </div>
     </div>
   </div>
-  <!-- end navigation -->
+</div>
+<!-- end navigation -->
 
   <!-- about2 contents -->
   <div id="about" class="container about2">
@@ -61,11 +97,20 @@
       <div class="wrap">
         <div class="inner">
           <div class="section">
-            <h3 class="section_title">
+            <h3 class="section_title is-desktop">
               스웨븐, 어떻게 만들어지는지 궁금하신가요?
             </h3>
-            <p class="sub_section_title">
+            <h3 class="section_title is-mobile">
+              스웨븐, <br>
+              어떻게 만들어지는지 궁금하신가요?
+            </h3>
+            <p class="sub_section_title is-desktop">
               최고의 회복을 위해 원, 부자재 입고에서부터 제품 생산, 포장, 배송에 이르기까지 <br>
+              모든 공정을 one-stop system으로 철저하게 관리합니다.
+            </p>
+            <p class="sub_section_title is-mobile">
+              최고의 회복을 위해 원, 부자재 입고에서부터 <br>
+              제품 생산, 포장, 배송에 이르기까지 <br>
               모든 공정을 one-stop system으로 철저하게 관리합니다.
             </p>
             <div class="video_wrap">

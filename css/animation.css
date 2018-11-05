@@ -230,7 +230,7 @@
 
 /* animation for product page mattress */
 .c-tech-intro {
-  padding: 40px 15px 65px;
+  padding: 120px 15px 65px;
   text-align: center
 }
 
@@ -372,7 +372,19 @@
   -webkit-transform: translateY(24%);
   transform: translateY(24%);
   width: 105%;
-  left: -25px
+  left: -22px
+}
+
+@media (max-width: 768px) {
+  .c-tech-intro.is-transitioned .c-tech-intro__part--core:after {
+    left: -17px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .c-tech-intro.is-transitioned .c-tech-intro__part--core:after {
+    left: -15px;
+  }
 }
 
 .c-tech-intro__part--core:before {

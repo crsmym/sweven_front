@@ -138,17 +138,16 @@
   background: url(../images/main/gallery_bg.png) right center no-repeat;
   background-size: 60% 100%;
 }
-.section.gallery .slider_container .main_slide {
-  /* max-width: 1366px;
-  margin: 0 auto;   */
-}
+/* .section.gallery .slider_container .main_slide .slides:first-child img {
+  display: none;
+} */
 .section.gallery .slider_container .main_slide .flickity-button.previous {
   background: url(../images/main/slide_l.png) center no-repeat;
-  left: 31.5%
+  left: 418px;
 }
 .section.gallery .slider_container .main_slide .flickity-button.next {
   background: url(../images/main/slide_r.png) center no-repeat;
-  right: 60%;
+  left: 481px;
 }
 .section.gallery .slider_container .gallery_sub {
   position: absolute;

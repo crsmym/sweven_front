@@ -102,7 +102,7 @@
   padding-top: 15px;
 }
 .product .section.foam .sub_section.third .flex_cont .cont:nth-child(1){
-  padding-left: 9%;
+  padding-left: 4%;
 }
 .product .section.foam .sub_section.third .flex_cont .cont:nth-child(2) {
   padding-left: 5%;
@@ -176,7 +176,7 @@
   max-width: 940px;
   margin: 0 auto;
 }
-.product .section.cover .sub_section .tensel_info ul li {
+.product .section.cover .sub_section .tensel_info .info_list > li {
   width: 30%;
   margin: 0 1.666666%;
   padding: 58px 28px;
